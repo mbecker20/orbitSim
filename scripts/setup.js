@@ -4,7 +4,6 @@ function setup() {
     window.LIGHTBLUE=color(50,150,255)
     window.G=10000;
 
-    const GP1=new GravPoint([600,400],1000)
     const GP2=new GravPoint([windowWidth/3,400],1000)
     const GP3=new GravPoint([2*windowWidth/3,400],1000)
     window.gravPoints=[GP2,GP3];
