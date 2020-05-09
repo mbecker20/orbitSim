@@ -51,8 +51,8 @@ class PhysAnim {
     gravFunc(x,v) {
         let a=[0,0];
         let r;
-        for(var i=0; i<window.gravPoints.length; i++) {
-            r=VF.R(x,window.gravPoints[i].p);
+        for(var i=0; i < window.gravPoints.length; i++) {
+            r = VF.R(x, window.gravPoints[i].p);
             a=math.add(a,math.multiply(r,window.G*window.gravPoints[i].m/Math.pow(VF.mag(r),3)));
         }
         return [v,a];
@@ -80,16 +80,16 @@ class PhysAnim {
     }
 
     setupUI() {
-        
+
     }
 
     drawUI() {
         //updates and draws UI. facilitates interaction
-        
+
     }
 
     justDrawUI() {
         //for when stepToMouse is active. UI interaction disabled
-        
+
     }
 }

@@ -42,9 +42,9 @@ class CheckBox {
 
     mouseIn() {
         //returns true if mouse is in bounds, false otherwise
-        return (mouseX>=this.corners[0][0] && 
-            mouseX<=this.corners[1][0] && 
-            mouseY>=this.corners[2][1] && 
+        return (mouseX>=this.corners[0][0] &&
+            mouseX<=this.corners[1][0] &&
+            mouseY>=this.corners[2][1] &&
             mouseY<=this.corners[0][1]);
     }
 
@@ -73,7 +73,7 @@ class CheckBox {
                     this.justClicked=false;
                 }
             }
-        } 
+        }
     }
 
     setLabel() {
@@ -105,9 +105,9 @@ class Button {
 
     mouseIn() {
         //returns true if mouse is in bounds, false otherwise
-        return (mouseX>=this.corners[0][0] && 
-            mouseX<=this.corners[1][0] && 
-            mouseY>=this.corners[2][1] && 
+        return (mouseX>=this.corners[0][0] &&
+            mouseX<=this.corners[1][0] &&
+            mouseY>=this.corners[2][1] &&
             mouseY<=this.corners[0][1]);
     }
 
@@ -154,7 +154,7 @@ class Button {
                     this.justClicked=false;
                 }
             }
-        } 
+        }
     }
 
     setLabel() {
